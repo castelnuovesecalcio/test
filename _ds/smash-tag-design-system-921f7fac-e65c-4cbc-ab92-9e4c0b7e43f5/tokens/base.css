@@ -1,0 +1,19 @@
+/* Minimal element defaults. Components carry their own styling. */
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;font-family:var(--st-font-body);font-size:var(--st-fs-md);line-height:var(--st-lh-body);color:var(--st-text-primary);background:var(--st-surface-page);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;font-family:var(--st-font-heading);font-weight:var(--st-w-bold);line-height:var(--st-lh-heading);text-transform:uppercase;text-wrap:balance}
+h1{font-size:var(--st-fs-h1)}h2{font-size:var(--st-fs-h2)}h3{font-size:var(--st-fs-h3)}h4{font-size:var(--st-fs-h4)}
+p{margin:0 0 var(--st-space-4);text-wrap:pretty}
+p:last-child{margin-bottom:0}
+a{color:var(--st-black);font-weight:var(--st-w-bold);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;transition:color var(--st-dur) var(--st-ease-snap)}
+a:hover{color:var(--st-ink-70);text-decoration-color:var(--st-yellow)}
+a:active{color:var(--st-black)}
+:where(.st-on-inverse) a,:where([data-theme="inverse"]) a{color:var(--st-yellow)}
+:where(.st-on-inverse) a:hover,:where([data-theme="inverse"]) a:hover{color:var(--st-white)}
+strong,b{font-weight:var(--st-w-black)}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit}
+:focus-visible{outline:3px solid var(--st-focus-ring);outline-offset:2px}
+::selection{background:var(--st-yellow);color:var(--st-black)}
+.st-label{font-family:var(--st-font-body);font-weight:var(--st-w-black);font-size:var(--st-fs-xs);letter-spacing:var(--st-ls-label);text-transform:uppercase}
+.st-tilt{display:inline-block;transform:rotate(var(--st-tilt))}

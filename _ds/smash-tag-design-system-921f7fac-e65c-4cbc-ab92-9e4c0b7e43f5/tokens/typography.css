@@ -1,0 +1,50 @@
+:root{
+  /* ---- Families ---- */
+  --st-font-display:"Brice Condensed","Brice",system-ui,sans-serif;        /* DISPLAY — Brice Condensed Black (900). Every headline and promo number. */
+  --st-font-display-wide:"Brice Expanded","Brice",system-ui,sans-serif;    /* DISPLAY 2 — Brice Expanded Black (900). One or two words, ONLY when explicitly asked for. */
+  --st-font-heading:"Brice SemiCondensed","Brice",system-ui,sans-serif;    /* HEADINGS — Brice SemiCondensed Bold (700). h1 40 / h2 32 / h3 24 / h4 20. */
+  --st-font-brand:"Brice",system-ui,sans-serif;                            /* product names, menu items */
+  --st-font-body:"Inter Tight","Brice",system-ui,sans-serif;               /* BODY — Inter Tight Regular (400). Micro labels use the same family at 900. */
+
+  /* ---- Weights ---- */
+  --st-w-light:300; /* @kind font */
+  --st-w-regular:400; /* @kind font */
+  --st-w-medium:500; /* @kind font */
+  --st-w-semibold:600; /* @kind font */
+  --st-w-bold:700; /* @kind font */
+  --st-w-black:900; /* @kind font */
+
+  /* ---- Display scale (poster / hero) ---- */
+  --st-fs-mega:clamp(64px,12vw,180px); /* @kind font */
+  --st-fs-display-1:clamp(48px,8vw,112px); /* @kind font */
+  --st-fs-display-2:clamp(38px,6vw,80px); /* @kind font */
+  --st-fs-display-3:clamp(30px,4.5vw,56px); /* @kind font */
+
+  /* ---- Text scale ---- */
+  --st-fs-h1:40px; /* @kind font */
+  --st-fs-h2:32px; /* @kind font */
+  --st-fs-h3:24px; /* @kind font */
+  --st-fs-h4:20px; /* @kind font */
+  --st-fs-lg:18px; /* @kind font */
+  --st-fs-md:16px; /* @kind font */
+  --st-fs-sm:14px; /* @kind font */
+  --st-fs-xs:12px; /* @kind font */
+
+  /* ---- Line heights: display is set tight, body stays readable ---- */
+  --st-lh-mega:0.82; /* @kind font */
+  --st-lh-display:0.88; /* @kind font */
+  --st-lh-heading:1.02; /* @kind font */
+  --st-lh-body:1.5; /* @kind font */
+  --st-lh-tight:1.2; /* @kind font */
+
+  /* ---- Tracking: condensed display closes up, small caps opens out ---- */
+  --st-ls-mega:-0.02em; /* @kind font */
+  --st-ls-display:-0.01em; /* @kind font */
+  --st-ls-heading:0em; /* @kind font */
+  --st-ls-body:0em; /* @kind font */
+  --st-ls-label:0.08em; /* @kind font */
+
+  /* ---- Signature tilt for lettering ---- */
+  --st-tilt:-3deg; /* @kind other */
+  --st-tilt-strong:-6deg; /* @kind other */
+}

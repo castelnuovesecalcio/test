@@ -1,0 +1,47 @@
+:root{
+  /* ---- Core brand ---- */
+  --st-black:#1D1D1B;              /* the only black. Never #000 in layout. */
+  --st-yellow-logo:#FFDD00;        /* LOGO ONLY. Lives inside the mark artwork; never a UI or layout colour. */
+  --st-yellow:#FFCD1C;             /* THE yellow. Every field, panel, button, keyline, cast and piece of lettering. */
+  --st-yellow-bg:var(--st-yellow); /* alias — the background yellow IS the yellow */
+  --st-yellow-alt:var(--st-yellow); /* legacy alias */
+  --st-white:#FFFFFF;
+
+  /* ---- Print / packaging equivalents (as they render in the supplied sticker artwork) ---- */
+  --st-black-print:#2C2E35;
+  --st-yellow-print:#FFCA43;
+
+  /* ---- Neutrals: black stepped toward paper, never bluish ---- */
+  --st-ink-90:#333331;
+  --st-ink-70:#57574F;
+  --st-ink-50:#8A8A82;
+  --st-ink-30:#C2C2BB;
+  --st-ink-15:#E2E2DC;
+  --st-ink-08:#F1F1EC;
+
+  /* ---- Photography backdrop: ONE value, always ---- */
+  --st-photo-yellow:#FFDD00;   /* the 25 studio shots are flood-filled to this; see readme */
+
+  /* ---- UI-only feedback. Not brand colours: use for order states, form errors, stock badges. ---- */
+  --st-ui-positive:#1F8A3B;
+  --st-ui-warning:#E06B00;
+  --st-ui-negative:#D42B1F;
+
+  /* ---- Semantic aliases ---- */
+  --st-surface-page:var(--st-white);
+  --st-surface-inverse:var(--st-black);
+  --st-surface-brand:var(--st-yellow);
+  --st-surface-brand-alt:var(--st-yellow-logo);
+  --st-surface-card:var(--st-white);
+  --st-surface-muted:var(--st-ink-08);
+
+  --st-text-primary:var(--st-black);
+  --st-text-on-brand:var(--st-black);
+  --st-text-on-inverse:var(--st-white);
+  --st-text-muted:var(--st-ink-70);
+
+  --st-border-strong:var(--st-black);
+  --st-border-subtle:var(--st-ink-15);
+
+  --st-focus-ring:var(--st-black);
+}

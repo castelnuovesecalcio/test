@@ -1,0 +1,53 @@
+/* Brice — Zetafonts. Licensed brand typeface, supplied by Smash Tag (complete family, WOFF2).
+   Widths are exposed as separate families so `font-stretch` is never needed. */
+
+/* Brice */
+
+
+
+
+
+
+
+/* Brice SemiCondensed */
+
+
+
+
+
+
+
+/* Brice Condensed */
+
+
+
+
+
+
+
+/* Brice SemiExpanded */
+
+
+
+
+
+
+
+/* Brice Expanded */
+
+
+
+
+
+
+
+/* Inter Tight (Google Fonts) — the brand's secondary face: body copy, prices, UI and micro labels. */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap");
+@font-face{font-family:"Brice";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Bold-Semi-Condensed.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Black-Semi-Condensed.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Bold-Condensed.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Black-Condensed.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../_ds/smash-tag-design-system-921f7fac-e65c-4cbc-ab92-9e4c0b7e43f5/assets/fonts/Brice-Black-Expanded.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}

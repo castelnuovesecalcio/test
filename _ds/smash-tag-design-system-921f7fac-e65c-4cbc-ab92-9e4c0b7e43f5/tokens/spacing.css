@@ -1,0 +1,19 @@
+:root{
+  /* 4px base grid */
+  --st-space-0:0px;   --st-space-1:4px;   --st-space-2:8px;   --st-space-3:12px;
+  --st-space-4:16px;  --st-space-5:20px;  --st-space-6:24px;  --st-space-8:32px;
+  --st-space-10:40px; --st-space-12:48px; --st-space-16:64px; --st-space-20:80px;
+  --st-space-24:96px; --st-space-32:128px;
+
+  /* Component padding presets */
+  --st-pad-btn-y:14px;  --st-pad-btn-x:28px;
+  --st-pad-card:20px;
+  --st-pad-section:var(--st-space-16);
+
+  /* Layout */
+  --st-container:1200px; /* @kind spacing */
+  --st-container-narrow:760px; /* @kind spacing */
+  --st-gutter:24px; /* @kind spacing */
+  --st-header-h:72px; /* @kind spacing */
+  --st-tap-min:44px; /* @kind spacing */
+}

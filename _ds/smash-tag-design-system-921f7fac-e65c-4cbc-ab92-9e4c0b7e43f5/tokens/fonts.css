@@ -1,0 +1,45 @@
+/* Brice — Zetafonts. Licensed brand typeface, supplied by Smash Tag (complete family, WOFF2).
+   Widths are exposed as separate families so `font-stretch` is never needed. */
+
+/* Brice */
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Extra-Light.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Semi-Bold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice";src:url("../assets/fonts/Brice-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+
+/* Brice SemiCondensed */
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Extra-Light-Semi-Condensed.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Light-Semi-Condensed.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Regular-Semi-Condensed.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Semi-Bold-Semi-Condensed.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Bold-Semi-Condensed.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiCondensed";src:url("../assets/fonts/Brice-Black-Semi-Condensed.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+
+/* Brice Condensed */
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Extra-Light-Condensed.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Light-Condensed.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Regular-Condensed.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Semi-Bold-Condensed.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Bold-Condensed.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Condensed";src:url("../assets/fonts/Brice-Black-Condensed.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+
+/* Brice SemiExpanded */
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Extra-Light-Semi-Expanded.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Light-Semi-Expanded.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Regular-Semi-Expanded.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Semi-Bold-Semi-Expanded.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Bold-Semi-Expanded.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice SemiExpanded";src:url("../assets/fonts/Brice-Black-Semi-Expanded.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+
+/* Brice Expanded */
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Extra-Light-Expanded.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Light-Expanded.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Regular-Expanded.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Semi-Bold-Expanded.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Bold-Expanded.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Brice Expanded";src:url("../assets/fonts/Brice-Black-Expanded.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+
+/* Inter Tight (Google Fonts) — the brand's secondary face: body copy, prices, UI and micro labels. */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap");
